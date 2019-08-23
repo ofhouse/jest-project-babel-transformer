@@ -10,7 +10,6 @@
     "test": "jest"
   },
   "devDependencies": {
-    "babel-jest": "^24.9.0",
     "jest": "^24.9.0"
   },
   "license": "MIT"

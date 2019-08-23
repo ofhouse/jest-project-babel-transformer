@@ -8,10 +8,24 @@
     ]
   },
   "main": "index.js",
-  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
   "devDependencies": {
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.3.3",
+    "@types/jest": "^24.0.18",
     "jest": "^24.9.0"
-  }
+  },
+  "dependencies": {
+    "@types/node": "^12.7.2",
+    "@types/react": "^16.9.2",
+    "@types/react-dom": "^16.9.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "typescript": "^3.5.3"
+  },
+  "license": "MIT"
 }
