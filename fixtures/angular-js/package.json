@@ -1,0 +1,24 @@
+{
+  "name": "jest-project-babel-transformer-angular-js",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": {
+    "nohoist": [
+      "**"
+    ]
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "angular-mocks": "^1.7.8",
+    "jest": "^24.9.0",
+    "jest-raw-loader": "^1.0.1"
+  },
+  "dependencies": {
+    "angular": "^1.7.8"
+  },
+  "license": "MIT"
+}

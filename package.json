@@ -1,0 +1,17 @@
+{
+  "name": "jest-project-babel-transformer-root",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "fixtures/*"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0"
+  },
+  "license": "MIT"
+}
